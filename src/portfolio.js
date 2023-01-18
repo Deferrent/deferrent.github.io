@@ -7,13 +7,13 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Joseph Sam',
-  role: 'Secuirty/Cloud Engineer',
+  role: 'Security/Cloud Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Junior Security/Cloud Engineer versed in Linux and Container technologies (Docker, Kubernetes), Python scripting and automation, CI/CD pipelining, and AWS Cloud Administration. Currently looking to be exposed to more roles that consist of building and maintaining quality infrastructure systems on cloud providers, developing code to automate processes, and continue my learning of performing these responsibilities with a security-focused mindset each step of the way.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/josephsam20',
+    github: 'https://github.com/Deferrent',
   },
 }
 
@@ -24,17 +24,15 @@ const projects = [
     name: 'Project 1',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Python', 'Terraform', 'AWS EC2', 'AWS S3', 'Github CI/CD Pipeline'],
+    sourceCode: 'https://github.com/Deferrent/terraformflaskcicd',
   },
   {
     name: 'Project 2',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Docker', 'Python', 'Gitlab CI'],
+    sourceCode: 'https://gitlab.com/Deferrent/december-project',
   },
   {
     name: 'Project 3',
@@ -49,23 +47,23 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'Terraform',
+  'Docker/Kubernetes',
+  'AWS/Azure Infrastructure Provision and IAM Management',
+  'CI/CD (Gitlab CI, Github CI/CD, Jenkins, ArgoCD',
+  'Linux Administration',
+  'Endpoint Detection Response (Carbon Black)',
+  'SIEM Monitoring and Policy Creation (FortiSIEM)',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Phishing Test and After Action Reporting',
+  'Networking',
+  'Cloud Security (AWS Security Hub, CIS Hardening)',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'josephsam92@mail.com',
 }
 
 export { header, about, projects, skills, contact }
