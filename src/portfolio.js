@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Joseph Sam',
-  role: 'Security/Cloud Engineer',
+  role: 'Junior Security/Cloud Engineer',
   description:
     'Junior Security/Cloud Engineer versed in Linux and Container technologies (Docker, Kubernetes), Python scripting and automation, CI/CD pipelining, and AWS Cloud Administration. Currently looking to be exposed to more roles that consist of building and maintaining quality infrastructure systems on cloud providers, developing code to automate processes, and continue my learning of performing these responsibilities with a security-focused mindset each step of the way.',
   resume: 'https://example.com',
@@ -23,15 +23,15 @@ const projects = [
   {
     name: 'Project 1',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Python', 'Terraform', 'AWS EC2', 'AWS S3', 'Github CI/CD Pipeline'],
+      'CI/CD Pipeline (with unit tests) for a Python Flask web app that runs on an EC2 virtual machine, Terraform script that automates VM provisioning, Web app Docker image build, and deployment on EC2 VM',
+    stack: ['Python', 'Terraform', 'AWS EC2', 'Docker', 'Github CI/CD Pipeline'],
     sourceCode: 'https://github.com/Deferrent/terraformflaskcicd',
   },
   {
     name: 'Project 2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Docker', 'Python', 'Gitlab CI'],
+      'Create a Python Flask Web App, using Linux to create env files/list dependencies; & use a Gitlab CI Pipeline to create/update docker image and upload to ECS',
+    stack: ['Docker', 'Python', 'Gitlab CI', 'AWS ECS'],
     sourceCode: 'https://gitlab.com/Deferrent/december-project',
   },
   {
@@ -63,7 +63,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'josephsam92@mail.com',
+  email: 'josephsam92@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
