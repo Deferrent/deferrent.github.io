@@ -10,7 +10,7 @@ const about = {
   role: 'Junior Security/Cloud Engineer',
   description:
     'Junior Security/Cloud Engineer versed in Linux and Container technologies (Docker, Kubernetes), Python scripting and automation, CI/CD pipelining, and AWS Cloud Administration. Currently looking to be exposed to more roles that consist of building and maintaining quality infrastructure systems on cloud providers, developing code to automate processes, and continue my learning of performing these responsibilities with a security-focused mindset each step of the way.',
-  resume: 'https://example.com',
+  resume: 'resume/index.html',
   social: {
     linkedin: 'https://linkedin.com/in/josephsam20',
     github: 'https://github.com/Deferrent',
