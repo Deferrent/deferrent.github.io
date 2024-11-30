@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Joseph Sam',
-  role: 'Junior Security/Cloud Engineer',
+  role: 'Software Engineer, DevOps',
   description:
     'A pleasure to meet you! I am a Junior Security/Cloud Engineer versed in Linux and Container technologies (Docker, Kubernetes), Python scripting and automation, CI/CD pipelining, and AWS Cloud Administration. Currently looking to be exposed to more roles that consist of building and maintaining quality infrastructure systems on cloud providers, developing code to automate processes, and continue my learning of performing these responsibilities with a security-focused mindset each step of the way. I hope that you enjoy the following projects I have been working on! My resume is also linked directly below if you want to check that out as well!',
   resume: 'https://docs.google.com/viewer?url=https://github.com/Deferrent/deferrent.github.io/raw/main/resume/SamJosephResumeCloud.pdf',
